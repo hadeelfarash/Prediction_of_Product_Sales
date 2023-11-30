@@ -1,56 +1,47 @@
-##Prediction of Product Sales##
-**Overview**
-This project focuses on predicting sales for food items sold across different stores. The primary objective is to provide retailers with insights into the key attributes of products and outlets that significantly influence sales. By leveraging predictive modeling techniques, this project aims to assist retailers in understanding and optimizing the factors that contribute to increased sales.
+# Prediction of Product Sales
+# Overview
+This project aims to predict sales for food items sold across different stores. The primary goal is to provide actionable insights to retailers by analyzing various features that influence sales, ultimately assisting in optimizing sales performance.
 
-Purpose
-The purpose of this project is to:
+**ِِAuthor** : Hadeel Fatash
+
+# Business problem:
 
 Predict sales figures for food items in various stores.
-Identify and analyze the factors impacting product sales.
-Provide actionable insights to retailers to enhance sales performance.
-##Project Structure##
-Data
-The project utilizes datasets containing information on:
+Analyze key features influencing sales.
+Offer recommendations to enhance sales based on insights derived from the data.
 
-Food items
-Store outlets
-Sales history
-Methodology
-Data Preprocessing:
+# Data:
+sales_predictions_2023.csv
+https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
-Cleaning and formatting data
-Feature engineering
-Exploratory Data Analysis (EDA):
+# Methods
+** Explatory the data 
+** clean the data by preprocessing methods (duplicates, null values, nuniuqe categories , inconsistent categories, inconsistent numeric features)
+** Imputation & satandarization(Encoder, one hot encode) and use them throgh pipeline
+** colom transformer
+** models pipeline
+** Evaluation
+# Results
+The second Model (Random Forest): Training Data (R² = 0.706): Approximately 70.6% of the variable being predicted is explained by the independent variable(s) used in the regression model when training the model on the provided dataset.
 
-Statistical analysis of variables
-Visualization of key trends and patterns
-Model Development:
+Test Data (R² = 0.595): When applying the trained model to new, unseen data (test data), approximately 59.5% of the variable being predicted in the dependent variable is explained by the independent variable(s).
 
-Selection of predictive models (e.g., regression, time series)
-Model training and evaluation
-Sales Prediction:
+Interpreting this for a non-technical audience:
 
-Utilizing trained models to forecast sales
-Assessing model accuracy and performance
-Technologies Used
-Programming Language: [Specify the language used (e.g., Python)]
-Libraries and Frameworks: [List relevant libraries and frameworks]
-How to Use
-Installation:
+"The model performed relatively well on the training data, explaining about 70.6% of the changes in the predicted outcome based on the included factors. However, when tested on new data that the model hasn’t seen before, it explains around 59.5% of the variability. This difference between the training and test performance suggests that the model might be slightly overfitting to the training data, which means it may not generalize as well to new, unseen data."
 
-Clone the repository: git clone [repository URL]
-Install required dependencies: pip install -r requirements.txt
-Usage:
+The first Model (linear reg): Training Data (R² = 0.562): Approximately 56.2% of the variability in the dependent variable (the variable being predicted) is explained by the independent variable(s) used in the regression model when training the model on the provided dataset.
 
-Run main.py to execute the sales prediction process.
-Follow instructions in the documentation for specific functionalities.
-Contribution Guidelines
-Fork the repository.
-Create a new branch for your features: git checkout -b feature-name
-Commit your changes: git commit -m 'Add feature'
-Push to the branch: git push origin feature-name
-Create a pull request detailing the changes made.
-Credits
-Acknowledge contributors, data sources, or libraries used.
-License
-Specify the project's license, if applicable
+Test Data (R² = 0.567): When applying the trained model to new, unseen data (test data), approximately 56.7% of the variability in the dependent variable is explained by the independent variable(s).
+
+Interpreting this for a non-technical audience:
+
+"The model shows moderate performance on both the training and test datasets. On the training data, it explains about 56.2% of the changes in the predicted outcome based on the included factors, and on the test data, it explains around 56.7%. This similarity in performance between training and test data suggests that the model doesn't suffer from significant overfitting or underfitting. However, there might be additional factors beyond those considered in the model that influence the predicted outcome."
+
+# Recommendations:
+you can instantiat another model to increase performance 
+# Limitations & Next Steps
+i will applay another kind of models to optimize the prediction 
+# For further information
+For any additional questions, please contact email : **hadeel-frashat@live.com**
+
