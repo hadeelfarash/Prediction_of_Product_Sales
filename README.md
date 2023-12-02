@@ -15,12 +15,12 @@ sales_predictions_2023.csv
 https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
 # Methods
-** Explatory the data 
-** clean the data by preprocessing methods (duplicates, null values, nuniuqe categories , inconsistent categories, inconsistent numeric features)
-** Imputation & satandarization(Encoder, one hot encode) and use them throgh pipeline
-** colom transformer
-** models pipeline
-** Evaluation
+**Explatory the data** 
+**clean the data by preprocessing methods (duplicates, null values, nuniuqe categories , inconsistent categories, inconsistent numeric features)**
+**Imputation & satandarization(Encoder, one hot encode) and use them throgh pipeline**
+**colom transformer**
+**models pipeline**
+**Evaluation**
 # Results
 The second Model (Random Forest): Training Data (R² = 0.706): Approximately 70.6% of the variable being predicted is explained by the independent variable(s) used in the regression model when training the model on the provided dataset.
 
@@ -40,10 +40,10 @@ Interpreting this for a non-technical audience:
 # Plots
 
 ![feature_importance](https://github.com/hadeelfarash/Prediction_of_Product_Sales/assets/74472831/972dbe36-09f8-44d5-8de5-288af8a03efc)
-** Interpretation:
+**Interpretation**:
 the plot show the most three features that ma;es value on prediction 
 ![reg_plot](https://github.com/hadeelfarash/Prediction_of_Product_Sales/assets/74472831/0e20eff3-ca4e-426d-ba29-735229c87b56)
-** Interpretation:
+**Interpretation**:
 
 
 
