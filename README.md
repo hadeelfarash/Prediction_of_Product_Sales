@@ -37,6 +37,15 @@ Test Data (R² = 0.567): When applying the trained model to new, unseen data (te
 Interpreting this for a non-technical audience:
 
 "The model shows moderate performance on both the training and test datasets. On the training data, it explains about 56.2% of the changes in the predicted outcome based on the included factors, and on the test data, it explains around 56.7%. This similarity in performance between training and test data suggests that the model doesn't suffer from significant overfitting or underfitting. However, there might be additional factors beyond those considered in the model that influence the predicted outcome."
+# Plots
+
+![feature_importance](https://github.com/hadeelfarash/Prediction_of_Product_Sales/assets/74472831/972dbe36-09f8-44d5-8de5-288af8a03efc)
+** Interpretation:
+the plot show the most three features that ma;es value on prediction 
+![reg_plot](https://github.com/hadeelfarash/Prediction_of_Product_Sales/assets/74472831/0e20eff3-ca4e-426d-ba29-735229c87b56)
+** Interpretation:
+
+
 
 # Recommendations:
 you can instantiat another model to increase performance 
